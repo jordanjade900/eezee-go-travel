@@ -1,0 +1,652 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "route": "home",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 6181,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3154,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4058,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3961,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4312,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3502,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3153,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3430,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2625,
+      "assets": []
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 5650,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2962,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3777,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3795,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4142,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3257,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2873,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3331,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2377,
+      "assets": []
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 5442,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2754,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3504,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3362,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3980,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3052,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2663,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2974,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2141,
+      "assets": []
+    },
+    {
+      "route": "home",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4279,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2583,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2787,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3568,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3672,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2666,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2491,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2822,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 820,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2012,
+      "assets": []
+    },
+    {
+      "route": "home",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4333,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2663,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2750,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3562,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3793,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2559,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2438,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2446,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2012,
+      "assets": []
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 4362,
+      "assets": [
+        "travel-window.webp",
+        "coast-aerial.webp"
+      ]
+    },
+    {
+      "route": "about",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2609,
+      "assets": [
+        "jamaican-highlands.webp"
+      ]
+    },
+    {
+      "route": "services",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2824,
+      "assets": [
+        "planning-flatlay.webp"
+      ]
+    },
+    {
+      "route": "travel-services",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3202,
+      "assets": [
+        "city-night.webp"
+      ]
+    },
+    {
+      "route": "group-trips",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 3887,
+      "assets": [
+        "river-canopy.webp",
+        "trip-jamwest-negril.webp",
+        "trip-benta-river-falls.webp",
+        "trip-mystic-mountain.webp",
+        "panama-canalside.webp",
+        "colombia-balcony.webp",
+        "costa-rica-forest.webp",
+        "guatemala-lake.webp",
+        "peru-terraces.webp"
+      ]
+    },
+    {
+      "route": "visa-assistance",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2532,
+      "assets": [
+        "visa-japan.webp"
+      ]
+    },
+    {
+      "route": "passport-renewals",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2429,
+      "assets": [
+        "passport-stilllife.webp"
+      ]
+    },
+    {
+      "route": "contact",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 2300,
+      "assets": [
+        "contact-palm.webp"
+      ]
+    },
+    {
+      "route": "privacy",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "height": 1835,
+      "assets": []
+    }
+  ],
+  "uniqueMainAssetFamilies": 17,
+  "globe": {
+    "canvas": true,
+    "ready": true,
+    "fallback": false,
+    "drawCalls": 17
+  },
+  "navRedOnly": true,
+  "carousel": true,
+  "noJavaScript": true,
+  "errors": []
+}

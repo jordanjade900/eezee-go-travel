@@ -1,0 +1,118 @@
+{
+  "services": [
+    {
+      "value": "Travel planning",
+      "label": "Travel planning"
+    },
+    {
+      "value": "Group trips",
+      "label": "Group trips"
+    },
+    {
+      "value": "Visa assistance",
+      "label": "Visa assistance"
+    },
+    {
+      "value": "Adult passport renewal",
+      "label": "Adult passport renewal"
+    },
+    {
+      "value": "Flight booking",
+      "label": "Flight booking"
+    },
+    {
+      "value": "Hotel booking",
+      "label": "Hotel booking"
+    },
+    {
+      "value": "Flight itinerary",
+      "label": "Flight itinerary"
+    },
+    {
+      "value": "Corporate travel",
+      "label": "Corporate travel"
+    },
+    {
+      "value": "Trip planning consultation",
+      "label": "Trip planning consultation"
+    },
+    {
+      "value": "Not sure yet",
+      "label": "Not sure yet"
+    }
+  ],
+  "destinations": [
+    {
+      "value": "Panama",
+      "label": "Panama"
+    },
+    {
+      "value": "Colombia",
+      "label": "Colombia"
+    },
+    {
+      "value": "Costa Rica",
+      "label": "Costa Rica"
+    },
+    {
+      "value": "Guatemala",
+      "label": "Guatemala"
+    },
+    {
+      "value": "Peru",
+      "label": "Peru"
+    },
+    {
+      "value": "United States",
+      "label": "United States"
+    },
+    {
+      "value": "Canada",
+      "label": "Canada"
+    },
+    {
+      "value": "United Kingdom",
+      "label": "United Kingdom"
+    },
+    {
+      "value": "Schengen Area",
+      "label": "Schengen Area"
+    },
+    {
+      "value": "Cayman Islands",
+      "label": "Cayman Islands"
+    },
+    {
+      "value": "Jamaica",
+      "label": "Jamaica"
+    },
+    {
+      "value": "Jamwest Beach Negril",
+      "label": "Jamwest Beach Negril"
+    },
+    {
+      "value": "Benta River Falls",
+      "label": "Benta River Falls"
+    },
+    {
+      "value": "Mystic Mountain",
+      "label": "Mystic Mountain"
+    },
+    {
+      "value": "Dubai",
+      "label": "Dubai"
+    },
+    {
+      "value": "Japan",
+      "label": "Japan"
+    },
+    {
+      "value": "China",
+      "label": "China"
+    },
+    {
+      "value": "Other / undecided",
+      "label": "Other / undecided"
+    }
+  ]
+}

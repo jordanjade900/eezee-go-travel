@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "sharedOptions": true,
+  "threeFeaturedTrips": true,
+  "serviceSchemaCount": 8,
+  "comparisons": [
+    {
+      "route": "home",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "about/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "services/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "group-trips/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "travel-services/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "visa-assistance/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "passport-renewals/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "contact/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    },
+    {
+      "route": "privacy/",
+      "sameCascade": true,
+      "bundledStylesheet": true
+    }
+  ],
+  "builtEnquiry": true,
+  "errors": []
+}

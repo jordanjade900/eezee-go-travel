@@ -1,0 +1,19 @@
+# Website refinement — 2 October 2026
+
+Implemented the user's requested improvements following the self-review. The approved homepage hero composition, copy, original stylesheet and official logo are retained; its service/destination options now match Contact. Local trips appear directly after the hero and lead the Group Trips page, with individual photographs cropped from the supplied agency flyer. Services presents all eight offerings without a second duplicated image-card catalogue. About uses verified founding, address, office hours and contact facts. Interior headings, panels, links and footers share a coherent navy/teal/gold treatment. Repeated process/closing blocks were replaced with concise, service-specific enquiry guidance. Interior header buttons now say Start enquiry; a note below the approved home hero clarifies Search/Book Now. No reservation or payment backend was added. Existing custom glass controls, hero intro, keyboard image previews, reduced-motion behavior and return-to-top remain.
+
+Mobile Services is about 42% shorter and Group Trips about 32% shorter in the 390px capture. Home is about 22% shorter. Final page screenshots were personally inspected, including lazy-loaded images, and contrast/crowded-label issues found during review were corrected.
+
+## Content and continuation
+
+Edit data/enquiry-catalog.json for shared form choices and data/local-trips.json for advertised trips. npm run build runs tools/catalog.mjs before SEO, synchronizing both forms, Home/Group trip cards and Contact's inline allowlisted trip data. Do not edit generated card blocks or Contact JSON independently. Regeneration preserves advertised dollar strings using callback replacement. Run check-instagram and check-refinement after catalogue changes. Past departures are relabelled on both Home and Group Trips; no past dates are prefilled.
+
+The production build combines each page's stylesheets into one bundle in original cascade order; source files remain separate. Relative CSS asset paths work because bundles are at dist's root. tools/serve.mjs accepts SITE_ROOT for a built preview. Source preview remains http://127.0.0.1:4173/. Optional PowerShell built preview: set $env:PORT='4184', set $env:SITE_ROOT=Join-Path (Get-Location) 'dist', then node tools/serve.mjs. This is loopback only; nothing was published.
+
+Work scripts refine-site.cjs and record-catalog-hero.cjs are one-time migrations: do not rerun them. Hero preservation hashes in docs/hero-preservation.json record only the authorized shared option change. Normal checks verify the preserved hero. New trip thumbnails retain the supplied flyer's limited resolution; obtain original destination photographs and authentic office/team photographs from the client for further refinement. Never substitute generated staff/office photos or invented testimonials. Only the supplied hero and logo are client-approved; new page designs remain reviewable work.
+
+## Verification
+
+Passed: npm test; check-premium; check-home-redesign; check-polish (nine routes, twelve widths, 320–2560px and landscape); check-controls (six popovers at four viewport sizes); check-instagram; check-refinement; and npm run build. Final review-site capture covers nine routes at 1440/390px with zero overflow, broken images or page errors. Reports and screenshots are in docs/. Production bundle/enquiry checks verify the built site as well as source.
+
+Fresh isolated production homepage Lighthouse at http://127.0.0.1:4184/: performance 91, automated accessibility 100, best practices 100, SEO 100; LCP 3.3s, CLS 0.003. Report: docs/lighthouse-production.json (also current docs/lighthouse.json). These local automated scores do not establish public indexing, AI inclusion, manual screen-reader accessibility, real-device Safari behavior or a guaranteed field-performance score.

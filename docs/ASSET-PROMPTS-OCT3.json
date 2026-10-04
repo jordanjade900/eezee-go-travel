@@ -1,0 +1,93 @@
+[
+  {
+    "name": "coast-aerial",
+    "prompt": "Photorealistic editorial travel photograph, wide landscape 3:2. An aerial view of an unbranded small white boat off a lush Caribbean coastline, intensely turquoise clear water, ivory beach and deep tropical greenery, delicate golden morning sun. Powerful diagonally composed coastline, substantial clear blue water at left for website typography. Crisp natural detail, refined premium travel magazine photography, no buildings identifiable as a named resort, no people identifiable, no logos, no words. This is an illustrative coastal scene for a Jamaican travel agency, not documentation of an advertised attraction.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/coast-aerial.png",
+    "delivery": "assets/coast-aerial.webp"
+  },
+  {
+    "name": "jamaican-highlands",
+    "prompt": "Photorealistic editorial travel photograph, landscape 3:2. Jamaica-inspired green highlands, soft blue mountains receding into a cloud-lit early morning, beautiful palms and lush tropical vegetation in foreground, narrow country road gently crossing hills. Rich natural greens and navy blue distance, light golden sun. Premium travel magazine, natural color, no fake office, no identifiable business, no text or logos. Purpose: unique About page atmosphere representing Jamaican roots, an illustrative scene not an office photograph.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/jamaican-highlands.png",
+    "delivery": "assets/jamaican-highlands.webp"
+  },
+  {
+    "name": "planning-flatlay",
+    "prompt": "Photorealistic editorial studio still life, landscape 3:2. Travel planning objects carefully arranged on pale blue matte surface: small folded unlabelled map, blank navy passport cover with no seal, cream notebook with entirely blank pages, gold pen, sunglasses and subtle palm shadow. Sophisticated overhead composition with layered paper textures, a coral ribbon accent and lots of breathing room. Directional late afternoon sun, immaculate but natural, high-end magazine quality. No writing, numbers, logos, identifiable IDs or printed passports. Unique service hub artwork.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/planning-flatlay.png",
+    "delivery": "assets/planning-flatlay.webp"
+  },
+  {
+    "name": "city-night",
+    "prompt": "Photorealistic high-end editorial travel photograph landscape 3:2, elegant modern waterfront city at blue hour inspired by global travel, warm architectural lights reflected in navy water, sculptural contemporary towers and a waterfront promenade, amber light and subtle cyan reflections. A beautiful atmospheric architectural photograph, no people close up, no text, no logos, no brands. Unique travel-planning page asset. Not a named destination or booked accommodation.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/city-night.png",
+    "delivery": "assets/city-night.webp"
+  },
+  {
+    "name": "visa-japan",
+    "prompt": "Photorealistic refined travel editorial, wide landscape 3:2. A quiet Japanese garden and traditional wooden pavilion beside a pond in autumn, warm coral maple foliage, subtle navy shadows, beautiful cinematic natural light, rich but realistic color. No people, no text, no logos, no tourism poster. Composition generous and immersive for the visa assistance page, illustrative travel inspiration not visa advice.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/visa-japan.png",
+    "delivery": "assets/visa-japan.webp"
+  },
+  {
+    "name": "passport-stilllife",
+    "prompt": "Photorealistic premium editorial still life, wide landscape 3:2. Close-up of a closed plain navy-blue travel document book with absolutely no text or insignia, resting beside a carefully folded pale ivory linen garment and a gold pen on a light blue-grey stone table. Directional sunlight and beautiful palm leaf shadow. Tactile paper and cloth textures, deep blue and luminous cream contrast. No identity details, no numbers, no seals, no logos, no text. Passport renewal page artwork, conceptual not an official document.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/passport-stilllife.png",
+    "delivery": "assets/passport-stilllife.webp"
+  },
+  {
+    "name": "contact-palm",
+    "prompt": "Photorealistic editorial photograph, wide landscape 3:2. Sunlit tropical palm fronds against a clean deep-blue sky, a sculptural cream stucco architectural arch at right, dramatic sharp palm shadow on the wall. Modern Caribbean warmth, refined natural detail, minimalist composition with negative space, bright golden sunshine. No signage, no offices, no people, no words or logos. Unique contact page photograph representing a welcoming tropical atmosphere, not the agency premises.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/contact-palm.png",
+    "delivery": "assets/contact-palm.webp"
+  },
+  {
+    "name": "river-canopy",
+    "prompt": "Photorealistic travel editorial, wide landscape 3:2. Emerald tropical river passing smooth limestone rocks and small cascades beneath a lush forest canopy, beautiful sunlight entering through leaves, luminous clear green water, natural texture. Immersive adventurous Caribbean atmosphere, clean composition for a travel magazine. No visitors, no signs, no words, no logos. Illustrative Jamaican nature for a group travel opening; do not portray as a photograph of Benta River Falls or any named venue.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/river-canopy.png",
+    "delivery": "assets/river-canopy.webp"
+  },
+  {
+    "name": "panama-canalside",
+    "prompt": "Photorealistic premium travel editorial photograph, landscape 3:2. Historic Panama City colonial architecture, colorful white and coral facades with graceful balconies, a sunlit small plaza with palms and the modern skyline subtly visible across the bay. Beautiful natural golden morning light. No text, no signage, no logos, no close-up people. Illustrative destination inspiration, not documentation of an advertised itinerary.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/panama-canalside.png",
+    "delivery": "assets/panama-canalside.webp"
+  },
+  {
+    "name": "colombia-balcony",
+    "prompt": "Photorealistic premium travel editorial photograph landscape 3:2, a beautiful narrow Cartagena-inspired Colombian colonial lane with yellow and coral facades, wooden balconies and abundant magenta bougainvillea, cobalt-blue doorway, dappled warm sun. Strong cinematic composition, realistic architectural textures. No text, no signage, no logos, no close-up people. Illustrative destination inspiration not a promised itinerary.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/colombia-balcony.png",
+    "delivery": "assets/colombia-balcony.webp"
+  },
+  {
+    "name": "costa-rica-forest",
+    "prompt": "Photorealistic premium travel editorial photograph landscape 3:2, spectacular Costa Rica-inspired rainforest view with a hanging pedestrian bridge disappearing among lush emerald tropical trees, soft mist and shafts of morning light, breathtaking natural depth, real textures. No text, no logos, no people. Illustrative travel destination inspiration not a promised itinerary or verified attraction.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/costa-rica-forest.png",
+    "delivery": "assets/costa-rica-forest.webp"
+  },
+  {
+    "name": "guatemala-lake",
+    "prompt": "Photorealistic premium travel editorial photograph landscape 3:2, serene Lake Atitlan-inspired Guatemalan landscape with deep blue water and immense green volcanic mountains in hazy morning distance, flowering shrubs and an unbranded small wooden boat in foreground, exquisite light and natural detail. No text, no logos, no people. Illustrative destination inspiration, not promised itinerary.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/guatemala-lake.png",
+    "delivery": "assets/guatemala-lake.webp"
+  },
+  {
+    "name": "peru-terraces",
+    "prompt": "Photorealistic premium travel editorial photograph landscape 3:2, dramatic Peruvian Andean valley with magnificent stone agricultural terraces, misty blue mountain ridges, lush green grass, warm morning sun grazing the ancient stone texture, immersive magazine quality. No text, no logos, no close up people. Illustrative destination inspiration, not a booked route or itinerary.",
+    "tool": "built-in imagegen",
+    "original": "references/generated/oct3/peru-terraces.png",
+    "delivery": "assets/peru-terraces.webp"
+  }
+]

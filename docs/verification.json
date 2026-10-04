@@ -1,0 +1,70 @@
+[
+  {
+    "viewport": "1672x941",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "1440x900",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "1024x768",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "768x1024",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "390x844",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "320x740",
+    "noOverflow": true,
+    "imagesLoaded": true
+  },
+  {
+    "viewport": "1440x900",
+    "interiorPages": 8,
+    "noOverflow": true
+  },
+  {
+    "viewport": "768x1024",
+    "interiorPages": 8,
+    "noOverflow": true
+  },
+  {
+    "viewport": "390x844",
+    "interiorPages": 8,
+    "noOverflow": true
+  },
+  {
+    "viewport": "320x740",
+    "interiorPages": 8,
+    "noOverflow": true
+  },
+  {
+    "contactPrefill": true,
+    "contactValidation": true,
+    "contactDrafts": true,
+    "interiorMobileMenu": true,
+    "notFoundPage": true
+  },
+  {
+    "searchDialog": true,
+    "selectionTransfer": true,
+    "whatsappDraft": true,
+    "escapeClose": true,
+    "bookNow": true,
+    "pastDateValidation": true,
+    "mobileMenu": true,
+    "approvedTheme": true,
+    "errors": []
+  }
+]

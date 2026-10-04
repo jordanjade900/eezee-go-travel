@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "popovers": 6,
+      "contained": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "popovers": 6,
+      "contained": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "popovers": 6,
+      "contained": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "popovers": 6,
+      "contained": true
+    }
+  ],
+  "keyboard": true,
+  "dateSelectionAndClear": true,
+  "enquiryDrafts": true,
+  "validationFocus": true,
+  "noJSFallback": true,
+  "reducedMotion": true,
+  "errors": []
+}

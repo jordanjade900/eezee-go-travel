@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "background": "url(\"http://127.0.0.1:4173/assets/hero-realistic-v2-960.webp\")",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "background": "url(\"http://127.0.0.1:4173/assets/hero-realistic-v2-960.webp\")",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "background": "url(\"http://127.0.0.1:4173/assets/hero-realistic-v2-960.webp\")",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "background": "linear-gradient(rgba(0, 0, 0, 0) 23%, rgba(3, 36, 59, 0.18) 40%, rgba(3, 36, 59, 0.13) 68%, rgba(0, 0, 0, 0)), url(\"http://127.0.0.1:4173/assets/hero-realistic-v2.webp\")",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "background": "linear-gradient(rgba(0, 0, 0, 0) 23%, rgba(3, 36, 59, 0.18) 40%, rgba(3, 36, 59, 0.13) 68%, rgba(0, 0, 0, 0)), url(\"http://127.0.0.1:4173/assets/hero-realistic-v2.webp\")",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

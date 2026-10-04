@@ -1,0 +1,5 @@
+[
+  {"id":"jamwest-negril","name":"Jamwest Beach Negril","date":"2026-10-17","displayDate":"17 October 2026","advertisedPrice":"$8,500","includes":["Transportation","Beach access","Professional photos","Lounge chairs"],"departure":"Manchester Shopping Centre, Mandeville"},
+  {"id":"benta-river-falls","name":"Benta River Falls","date":"2026-11-28","displayDate":"28 November 2026","advertisedPrice":"$10,000","includes":["Transportation","All entrance fees","River access","Garden access","Professional photos"],"departure":"Manchester Shopping Centre, Mandeville"},
+  {"id":"mystic-mountain","name":"Mystic Mountain","date":"2026-12-19","displayDate":"19 December 2026","advertisedPrice":"$17,500","includes":["Transportation","Zip line","Rock climbing","Infinity pool & waterslide","Bobsled & Anansi’s Web"],"departure":"Manchester Shopping Centre, Mandeville"}
+]

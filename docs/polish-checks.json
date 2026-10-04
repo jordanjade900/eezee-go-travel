@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "height": 568,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "height": 740,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 600,
+      "height": 960,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "routes": 9,
+      "noOverflow": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "routes": 9,
+      "noOverflow": true
+    }
+  ],
+  "uniqueMetadata": true,
+  "structuredData": true,
+  "crawlFiles": true,
+  "backToTopAllPages": true,
+  "keyboard": true,
+  "reducedMotion": true,
+  "heroMotifRemoved": true,
+  "errors": []
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /references/
+Disallow: /tools/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.claude/
+
+Sitemap: https://eezeegotravelja.com/sitemap.xml

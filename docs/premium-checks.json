@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "route": "about",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "services",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "travel-services",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "group-trips",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "visa-assistance",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "passport-renewals",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "contact",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "privacy",
+      "width": 1440,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "about",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "services",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "travel-services",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "group-trips",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "visa-assistance",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "passport-renewals",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "contact",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    },
+    {
+      "route": "privacy",
+      "width": 390,
+      "scrollReveal": true,
+      "noOverflow": true
+    }
+  ],
+  "faq": true,
+  "reducedMotion": true,
+  "noJS": true,
+  "keyboardPreview": true,
+  "heroUnchanged": true,
+  "errors": []
+}
