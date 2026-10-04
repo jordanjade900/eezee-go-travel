@@ -23,7 +23,7 @@ for(const file of ['index.html','404.html',...pages.map(page=>`${page}/index.htm
  const styles=[...html.matchAll(/<link rel="stylesheet" href="([^"]+)"\s*\/?\s*>/g)].map(m=>m[1].replace(/^(\.\.\/|\/)+/,''));
  const key=styles.join('|');let bundle=bundles.get(key);
  if(!bundle){const combined=(await Promise.all(styles.map(style=>readFile(style,'utf8')))).join('\n');const {code:css}=await transform(combined,{loader:'css',minify:true,legalComments:'inline'});bundle=`bundle-${createHash('sha256').update(css).digest('hex').slice(0,10)}.css`;bundles.set(key,bundle);await writeFile(`dist/${bundle}`,css);}
- let first=true;html=html.replace(/<link rel="stylesheet" href="([^"]+)"\s*\/?\s*>/g,()=>{if(!first)return '';first=false;return `<link rel="stylesheet" href="${file.includes('/')?'../':''}${bundle}">`;});
+ let first=true;html=html.replace(/<link rel="stylesheet" href="([^"]+)"\s*\/?\s*>/g,()=>{if(!first)return '';first=false;const prefix=file==='404.html'?'/':file.includes('/')?'../':'';return `<link rel="stylesheet" href="${prefix}${bundle}">`;});
  await writeFile(`dist/${file}`,html);
 }
 console.log('Static build ready in dist/. No publication performed.');

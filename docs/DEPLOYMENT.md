@@ -1,0 +1,32 @@
+# GitHub and Netlify deployment
+
+Repository: https://github.com/jordanjade900/eezee-go-travel
+
+The website source is at the repository root. Node 24 was used locally. Install with `npm ci`, then build with `npm run build`. The publish directory is `dist`. `netlify.toml` supplies the build command, publish directory, Node version and static response headers. This is a static multipage website: do not add an SPA redirect that turns missing routes into the homepage. The existing `404.html` handles unknown paths.
+
+Metadata uses `PUBLIC_SITE_URL` when explicitly set, then Netlify's `URL` environment value, then the existing agency domain for ordinary local development. Set `PUBLIC_SITE_URL` to the confirmed HTTPS production origin when deploying manually or using a custom domain. The build regenerates canonicals, social-image URLs, sitemap and structured data.
+
+The build safety check identifies the package rather than requiring a local folder name. A fresh Git clone in a differently named folder was built successfully before deployment. The source and all delivery assets are committed. Environment files, Netlify state, dependencies, build output, scratch scripts and screenshot/Lighthouse artifacts are excluded.
+
+Netlify CLI browser authentication stores credentials in its standard user configuration, outside the repository. Do not commit tokens or `.netlify/state.json`. Git credentials are handled by Git Credential Manager. The GitHub plugin could read this new repository but its write request returned 403; the actual upload succeeded through authenticated local Git.
+
+Current GitHub branch: `main`. The remote upload was verified using `git ls-remote` and the connected GitHub file/commit tools.
+
+## Published — 4 October 2026
+
+- Live site: https://eezee-go-travel.netlify.app/
+- Netlify project: https://app.netlify.com/projects/eezee-go-travel
+- Team: jordanjade900 (display name Neon Lights).
+- Project ID: c2f75e7f-c3c4-4b75-8755-6e60b1f902ae.
+- Verified production deploy: 6ac2dafacc0fa79ed2fd2a3f.
+- Deploy log: https://app.netlify.com/projects/eezee-go-travel/deploys/6ac2dafacc0fa79ed2fd2a3f.
+
+Published through authenticated Netlify CLI using the built dist directory. This is a manual deployment; automatic Git-triggered deployment has not been configured. Future source pushes update GitHub but require a new Netlify deploy until repository integration is enabled in Netlify.
+
+Passed live checks: all nine content routes return 200; image decoding succeeds; canonicals match the live origin; no mobile horizontal overflow; Home's service picker and enquiry summary work; Contact trip/service prefill works; sitemap/robots return 200; nested missing pages return a styled 404. Live desktop/mobile hero screenshots were personally inspected. Check command: `node tools/check-deployment.mjs`. Results: docs/deployment-checks.json; captures: docs/screenshots/deployment/.
+
+The local Windows runtime returned EXDEV during atomic CLI configuration writes. Only the ignored work/netlify-cli tooling copy was patched to fall back to a direct 0600 config write for that error. Website code, authentication checks and normal atomic writes were unaffected. This workaround is local and is not required for the Netlify build server. Login credentials remain in Netlify's normal user configuration, never in this repository.
+
+To publish an update, build with PUBLIC_SITE_URL=https://eezee-go-travel.netlify.app/, then use an authenticated Netlify CLI: `netlify deploy --site c2f75e7f-c3c4-4b75-8755-6e60b1f902ae --dir dist --no-build --prod`. For future custom-domain launches, update PUBLIC_SITE_URL and rebuild. Do not assume the agency's existing domain has been changed; no custom domain or DNS was modified.
+
+References: [Netlify CLI guide](https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/), [Build configuration](https://docs.netlify.com/build/configure-builds/overview/), [Production deployments](https://docs.netlify.com/deploy/deploy-types/production-deploy/).

@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "base": "https://eezee-go-travel.netlify.app/",
+  "results": [
+    {
+      "route": "home",
+      "canonical": "https://eezee-go-travel.netlify.app/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "about/",
+      "canonical": "https://eezee-go-travel.netlify.app/about/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "services/",
+      "canonical": "https://eezee-go-travel.netlify.app/services/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "travel-services/",
+      "canonical": "https://eezee-go-travel.netlify.app/travel-services/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "group-trips/",
+      "canonical": "https://eezee-go-travel.netlify.app/group-trips/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "visa-assistance/",
+      "canonical": "https://eezee-go-travel.netlify.app/visa-assistance/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "passport-renewals/",
+      "canonical": "https://eezee-go-travel.netlify.app/passport-renewals/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "contact/",
+      "canonical": "https://eezee-go-travel.netlify.app/contact/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    },
+    {
+      "route": "privacy/",
+      "canonical": "https://eezee-go-travel.netlify.app/privacy/",
+      "overflow": false,
+      "h1": 1,
+      "broken": []
+    }
+  ],
+  "contactPrefill": true,
+  "heroEnquiry": true,
+  "nested404": true,
+  "errors": []
+}

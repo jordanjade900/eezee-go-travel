@@ -7,4 +7,4 @@ Disallow: /node_modules/
 Disallow: /dist/
 Disallow: /.claude/
 
-Sitemap: https://eezeegotravelja.com/sitemap.xml
+Sitemap: https://eezee-go-travel.netlify.app/sitemap.xml

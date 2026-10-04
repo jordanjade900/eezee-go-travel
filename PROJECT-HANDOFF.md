@@ -1,5 +1,14 @@
 # Project handoff for Claude: EE-Zee Go Travel
 
+## Published — 4 October 2026
+
+Live website: https://eezee-go-travel.netlify.app/
+Repository: https://github.com/jordanjade900/eezee-go-travel (main).
+Netlify project: https://app.netlify.com/projects/eezee-go-travel, team jordanjade900. The user authorized public Netlify hosting. The GitHub upload succeeded through Git Credential Manager after the plugin returned a write-permission error. The site was deployed manually with Netlify CLI; automatic Git-triggered deployment is not configured.
+
+All nine live routes, images, live-domain metadata, responsive hero, enquiry controls, Contact prefill, robots/sitemap and nested styled 404 checks passed. Live desktop/mobile hero captures were inspected. docs/DEPLOYMENT.md has the project ID, deploy log, update commands and local CLI workaround. tools/check-deployment.mjs performs live verification. The build now works under a different folder name and preserves root stylesheet URLs on nested 404 pages. Earlier local-only and pending-repository statements below are historical and superseded. No agency custom domain or DNS was changed.
+
+
 ## Latest update — 4 October 2026
 
 The user requested a simple, more realistic hero image. assets/hero-realistic-v2.png and desktop/mobile WebP derivatives now replace the visible Home background via atelier.css; original hero assets and styles.css are preserved. Layout, logo, headline and form are unchanged. Preloads and Home social metadata use the new asset. Five viewport checks passed and desktop/mobile crops were personally inspected. Prompt/provenance: docs/HERO-IMAGE-OCT4.md. Earlier Lighthouse scores predate this image replacement.
