@@ -10,3 +10,4 @@ references/generated/
 docs/screenshots/
 docs/lighthouse*.json
 *.log
+.netlify/

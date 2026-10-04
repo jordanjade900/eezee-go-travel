@@ -1,7 +1,7 @@
 /* Static metadata for ordinary crawlers and AI retrieval. Re-run with
    PUBLIC_SITE_URL when the launch domain differs from the client's current one. */
 import {readFile,writeFile,copyFile} from 'node:fs/promises';
-const origin=new URL(process.env.PUBLIC_SITE_URL||'https://eezeegotravelja.com/');
+const origin=new URL(process.env.PUBLIC_SITE_URL||process.env.URL||'https://eezeegotravelja.com/');
 if(origin.protocol!=='https:' || origin.pathname!=='/' || origin.search || origin.hash)throw Error('PUBLIC_SITE_URL must be an HTTPS site origin, e.g. https://example.com/');
 const base=origin.href;const url=path=>new URL(path,base).href;
 const info={
