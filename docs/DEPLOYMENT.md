@@ -1,5 +1,9 @@
 # GitHub and Netlify deployment
 
+## Latest production update — 4 October 2026
+
+Current deploy: 6ac3268b9ba8e6493c8b4e40. The user requested audience-neutral hero copy and removal of the decorative globe. These are published; the renderer/build step/unused geographic dependencies are removed. Services now has a full-width opening. Current details and verification: AUDIENCE-AND-GLOBE-UPDATE.md and globe-removal-checks.json. Older globe-render measurements below are historical.
+
 Repository: https://github.com/jordanjade900/eezee-go-travel
 
 The website source is at the repository root. Node 24 was used locally. Install with `npm ci`, then build with `npm run build`. The publish directory is `dist`. `netlify.toml` supplies the build command, publish directory, Node version and static response headers. This is a static multipage website: do not add an SPA redirect that turns missing routes into the homepage. The existing `404.html` handles unknown paths.

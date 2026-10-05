@@ -7,7 +7,7 @@ const base=origin.href;const url=path=>new URL(path,base).href;
 const info={
  '':{name:'Travel Made EE-Zee',type:'WebPage',image:'hero-realistic-v2.webp'},
  'about':{name:'About EE-Zee Go Travel',label:'About us',type:'AboutPage',image:'jamaican-highlands.webp'},
- 'services':{name:'Travel services in Mandeville',label:'Services',type:'CollectionPage',image:'planning-flatlay.webp'},
+ 'services':{name:'Local and international travel services',label:'Services',type:'CollectionPage',image:'planning-flatlay.webp'},
  'travel-services':{name:'Travel planning',label:'Travel planning',type:'WebPage',service:'Travel planning',image:'city-night.webp'},
  'group-trips':{name:'Group trips',label:'Group trips',type:'CollectionPage',service:'Group trips',image:'river-canopy.webp'},
  'visa-assistance':{name:'Visa assistance',label:'Visa assistance',type:'FAQPage',service:'Visa assistance',image:'visa-japan.webp'},
@@ -17,7 +17,7 @@ const info={
 };
 const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
 const esc=s=>s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
-const company={'@type':'TravelAgency','@id':url('#agency'),name:'EE-Zee Go Travel Limited',url:base,description:'Travel planning, visa assistance, adult Jamaican passport renewal assistance and group trips from Mandeville since 1996.',foundingDate:'1996',email:'eezeegoltd@gmail.com',logo:url('assets/logo-web.webp'),telephone:'+1-876-450-3415',address:{'@type':'PostalAddress',streetAddress:'32 Mandeville Plaza',addressLocality:'Mandeville',addressCountry:'JM'},openingHoursSpecification:{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday'],opens:'08:00',closes:'17:00'},sameAs:['https://www.instagram.com/eezeegotravelja/']};
+const company={'@type':'TravelAgency','@id':url('#agency'),name:'EE-Zee Go Travel Limited',url:base,description:'Travel planning, visa assistance, adult Jamaican passport renewal assistance and group trips for local and international travellers since 1996.',foundingDate:'1996',email:'eezeegoltd@gmail.com',logo:url('assets/logo-web.webp'),telephone:'+1-876-450-3415',address:{'@type':'PostalAddress',streetAddress:'32 Mandeville Plaza',addressLocality:'Mandeville',addressCountry:'JM'},openingHoursSpecification:{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday'],opens:'08:00',closes:'17:00'},sameAs:['https://www.instagram.com/eezeegotravelja/']};
 for(const [route,meta]of Object.entries(info)){
  const file=route?`${route}/index.html`:'index.html';let html=await readFile(file,'utf8');
  const title=strip(html.match(/<title>(.*?)<\/title>/s)[1]);const description=html.match(/<meta name="description" content="([^"]*)"/)[1];

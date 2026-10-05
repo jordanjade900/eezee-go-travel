@@ -1,0 +1,79 @@
+{
+  "base": "https://eezee-go-travel.netlify.app/",
+  "passed": true,
+  "results": [
+    {
+      "route": "home",
+      "width": 320,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 320,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 390,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 768,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "home",
+      "width": 820,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 820,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "home",
+      "width": 1024,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 1024,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "noOverflow": true,
+      "globeRemoved": true
+    },
+    {
+      "route": "services/",
+      "width": 1440,
+      "noOverflow": true,
+      "globeRemoved": true
+    }
+  ],
+  "errors": []
+}

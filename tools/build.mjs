@@ -4,7 +4,6 @@ import {createHash} from 'node:crypto';
 import {transform} from 'esbuild';
 await import('./catalog.mjs');
 await import('./seo.mjs');
-await import('./build-motion.mjs');
 export const pages = ['group-trips','services','travel-services','visa-assistance','passport-renewals','about','contact','privacy'];
 const destination=resolve('dist');
 const project=JSON.parse(await readFile('package.json','utf8'));

@@ -1,7 +1,8 @@
 {
-  "hero": "983a067ece46d3abf99463a80854cbb7597852c753580853a228b9a611fd7bd7",
+  "hero": "6e2aa7eeb312ac9bcef11dd89f895635155a43fb6e9b325ccc866ad88503ab87",
   "stylesheet": "2ef016630865c3601be0b17605925b5b835a2d87c2dba8e54868b431754fd786",
   "previousHero": "ad638d0d4f71cdc09cb4a9c308d1249904244f54ab10fb369d1fd2fc601d26cd",
-  "authorizedChange": "1 October 2026: user requested removal of the decorative airplane and coral trail. Hero content and composition otherwise preserved. 2 October 2026: user authorized the review improvements; destination/service option lists now match Contact. Hero labels, copy, composition, logo and original stylesheet are preserved.",
-  "previousCatalogHero": "61c5e3c8682d6b70b02e6534cb3a543948a72a9b7404c0ec137286b30202cafd"
+  "authorizedChange": "1 October 2026: user requested removal of the decorative airplane and coral trail. Hero content and composition otherwise preserved. 2 October 2026: user authorized the review improvements; destination/service option lists now match Contact. Hero labels, copy, composition, logo and original stylesheet are preserved. 4 October 2026: user requested removal of from Mandeville from hero copy because the agency serves local and international clients. Only the descriptive sentence changed; hero layout, title, logo, controls and stylesheet remain.",
+  "previousCatalogHero": "61c5e3c8682d6b70b02e6534cb3a543948a72a9b7404c0ec137286b30202cafd",
+  "previousAudienceHero": "983a067ece46d3abf99463a80854cbb7597852c753580853a228b9a611fd7bd7"
 }

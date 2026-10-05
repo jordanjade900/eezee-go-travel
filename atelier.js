@@ -40,6 +40,3 @@ for(const button of document.querySelectorAll('.atelier-site .p-button,.atelier-
 }
 const track=document.querySelector('.destination-track');
 if(track){document.querySelector('.reel-controls').hidden=false;const controls=[...document.querySelectorAll('[data-reel-step]')];const update=()=>{controls[0].disabled=track.scrollLeft<5;controls[1].disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-5;};controls.forEach(button=>button.addEventListener('click',()=>{const step=track.querySelector('.destination-postcard').getBoundingClientRect().width+24;track.scrollBy({left:Number(button.dataset.reelStep)*step,behavior:reduced.matches?'instant':'smooth'});}));track.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();}
-// Three.js is fetched only when its dedicated service illustration is near view.
-const globe=document.querySelector('[data-globe]');
-if(globe&&!navigator.connection?.saveData){const observer=new IntersectionObserver(async entries=>{if(!entries.some(e=>e.isIntersecting))return;observer.disconnect();try{const {mountGlobe}=await import('./assets/vendor/globe.js');mountGlobe(globe);}catch(error){globe.dataset.fallback=error.message;globe.classList.remove('globe-ready');globe.querySelector('canvas')?.remove();}},{rootMargin:'150px'});observer.observe(globe);}

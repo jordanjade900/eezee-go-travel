@@ -1,5 +1,10 @@
 # EE-Zee Go Travel website
 
+## Current update — 4 October 2026: audience and globe removal
+
+The user clarified that the agency has local and international clients. The hero now says planned with care for 30 years, without from Mandeville. General audience descriptions and metadata reflect both audiences; physical office and advertised departure addresses remain. The user then requested removal of the globe. Services now has a full-width opening and its exclusive planning photo; the globe renderer, bundle, build step and unused Three.js/geographic dependencies are removed. Eight services, GSAP entrances and other page interactions remain. Earlier globe descriptions/checks below are historical. See docs/AUDIENCE-AND-GLOBE-UPDATE.md and docs/globe-removal-checks.json.
+
+
 ## Published — 4 October 2026
 
 Live website: https://eezee-go-travel.netlify.app/
