@@ -37,6 +37,18 @@
       "label": "Trip planning consultation"
     },
     {
+      "value": "Airport transfer",
+      "label": "Airport transfer"
+    },
+    {
+      "value": "Excursions and tours",
+      "label": "Excursions and tours"
+    },
+    {
+      "value": "Travel insurance",
+      "label": "Travel insurance"
+    },
+    {
       "value": "Not sure yet",
       "label": "Not sure yet"
     }
@@ -109,6 +121,14 @@
     {
       "value": "China",
       "label": "China"
+    },
+    {
+      "value": "Curaçao",
+      "label": "Curaçao"
+    },
+    {
+      "value": "Germany",
+      "label": "Germany"
     },
     {
       "value": "Other / undecided",

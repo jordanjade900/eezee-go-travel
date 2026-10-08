@@ -1,5 +1,10 @@
 # Project handoff for Claude: EE-Zee Go Travel
 
+## Current update — 8 October 2026: original client website content
+
+The user supplied the existing website as an authoritative content source and requested missing information be incorporated. Seven interior pages and the shared enquiry catalogue now cover transfers, tours, insurance, booking workflows, visa preparation, adult renewal steps, published customer excerpts and group reservation/payment-plan information. About speaks to international clients. Approved hero/logo remain untouched. See docs/CLIENT-WEBSITE-CONTENT-OCT8.md for sources, exact scope and unresolved source contradictions; do not import placeholder prices, conflicting international trip dates or unverified accreditation/approval statistics. Form behaviour remains draft-only, with no payment/booking backend. Verification: npm test, custom controls, nine pages at six widths (including normal motion/no-JS), and new transfer/tour/insurance prefills and WhatsApp drafts at three widths passed. Desktop/mobile process, review and FAQ captures were personally inspected. Source preview for this turn is http://127.0.0.1:4190/ because 4173 is occupied by another server.
+
+
 ## Current update — 4 October 2026: audience and globe removal
 
 The user clarified that the agency has local and international clients. The hero now says planned with care for 30 years, without from Mandeville. General audience descriptions and metadata reflect both audiences; physical office and advertised departure addresses remain. The user then requested removal of the globe. Services now has a full-width opening and its exclusive planning photo; the globe renderer, bundle, build step and unused Three.js/geographic dependencies are removed. Eight services, GSAP entrances and other page interactions remain. Earlier globe descriptions/checks below are historical. See docs/AUDIENCE-AND-GLOBE-UPDATE.md and docs/globe-removal-checks.json.

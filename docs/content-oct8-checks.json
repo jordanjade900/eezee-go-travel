@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "newServicePrefillAndDrafts": [
+    {
+      "width": 320,
+      "service": "Airport transfer",
+      "destination": "Curaçao",
+      "draft": true
+    },
+    {
+      "width": 320,
+      "service": "Excursions and tours",
+      "destination": "Germany",
+      "draft": true
+    },
+    {
+      "width": 320,
+      "service": "Travel insurance",
+      "destination": "Panama",
+      "draft": true
+    },
+    {
+      "width": 390,
+      "service": "Airport transfer",
+      "destination": "Curaçao",
+      "draft": true
+    },
+    {
+      "width": 390,
+      "service": "Excursions and tours",
+      "destination": "Germany",
+      "draft": true
+    },
+    {
+      "width": 390,
+      "service": "Travel insurance",
+      "destination": "Panama",
+      "draft": true
+    },
+    {
+      "width": 1440,
+      "service": "Airport transfer",
+      "destination": "Curaçao",
+      "draft": true
+    },
+    {
+      "width": 1440,
+      "service": "Excursions and tours",
+      "destination": "Germany",
+      "draft": true
+    },
+    {
+      "width": 1440,
+      "service": "Travel insurance",
+      "destination": "Panama",
+      "draft": true
+    }
+  ]
+}

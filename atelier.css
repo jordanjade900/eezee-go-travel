@@ -33,3 +33,12 @@
 
 
 .services-opening.atelier-wrap{display:block;padding-top:44px;padding-bottom:64px}.services-opening>.atelier-title{max-width:950px}.services-opening .atelier-lead{max-width:680px}@media(max-width:768px){.services-opening.atelier-wrap{padding-top:24px;padding-bottom:42px}}
+
+/* Client website content migration, 8 October 2026. */
+.client-process,.client-stories,.client-extra{padding-block:64px;border-top:1px solid #082d5320}
+.client-process{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:70px}
+.atelier-site .client-process h2,.atelier-site .client-stories h2,.atelier-site .client-extra h2{font-size:clamp(32px,3.6vw,54px);line-height:1.14}
+.client-process ol{list-style:none;margin:0;padding:0}.client-process li{display:grid;grid-template-columns:40px minmax(0,1fr);gap:20px;padding:23px 0;border-bottom:1px solid #082d5320}.client-process li:first-child{padding-top:0}.process-index{font-size:12px;letter-spacing:.08em;color:#0785a0;padding-top:6px}.client-process h3{font-size:23px;line-height:1.3;margin:0 0 9px}.client-process p,.client-extra p,.client-stories-heading p{font-size:17px;line-height:1.7;color:var(--ink-soft);max-width:58ch;margin:0}
+.client-stories-heading{max-width:700px;margin-bottom:35px}.client-stories-heading h2{margin-bottom:20px}.client-quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin-bottom:28px}.client-quotes figure{margin:0;padding:25px 0;border-top:2px solid #ff6267}.client-quotes blockquote{font-size:24px;line-height:1.5;margin:0 0 28px}.client-quotes figcaption{display:grid;gap:6px;font-size:14px}.client-quotes figcaption span{color:var(--ink-soft)}
+.client-extra{display:grid;grid-template-columns:1fr 1fr;gap:70px}.client-extra .p-text-link{margin-top:24px}
+@media(max-width:768px){.client-process,.client-extra{grid-template-columns:1fr;gap:28px}.client-process,.client-stories,.client-extra{padding-block:38px}.client-quotes{grid-template-columns:1fr;gap:10px}.client-quotes blockquote{font-size:23px;margin-bottom:18px}.client-process h3{font-size:21px}.client-process li{gap:12px;grid-template-columns:30px minmax(0,1fr)}}
