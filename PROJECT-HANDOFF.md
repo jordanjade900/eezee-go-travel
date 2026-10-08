@@ -2,6 +2,8 @@
 
 ## Current update — 8 October 2026: original client website content
 
+Published at https://eezee-go-travel.netlify.app/ on Netlify deploy 6ac72f2e5129a1126343b633; implementation commit de40026 pushed to GitHub main. Live checks passed on all nine routes, metadata, images, hero controls, Contact prefill, nested 404, and the three new service/destination combinations at 320/390/1440px.
+
 The user supplied the existing website as an authoritative content source and requested missing information be incorporated. Seven interior pages and the shared enquiry catalogue now cover transfers, tours, insurance, booking workflows, visa preparation, adult renewal steps, published customer excerpts and group reservation/payment-plan information. About speaks to international clients. Approved hero/logo remain untouched. See docs/CLIENT-WEBSITE-CONTENT-OCT8.md for sources, exact scope and unresolved source contradictions; do not import placeholder prices, conflicting international trip dates or unverified accreditation/approval statistics. Form behaviour remains draft-only, with no payment/booking backend. Verification: npm test, custom controls, nine pages at six widths (including normal motion/no-JS), and new transfer/tour/insurance prefills and WhatsApp drafts at three widths passed. Desktop/mobile process, review and FAQ captures were personally inspected. Source preview for this turn is http://127.0.0.1:4190/ because 4173 is occupied by another server.
 
 

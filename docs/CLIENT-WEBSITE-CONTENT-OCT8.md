@@ -31,3 +31,5 @@ The 24-hour response is explicitly a published target rather than a technical or
 ## Delivery
 
 Build domain remains the Netlify origin. The existing client domain is only a research source; no DNS, old website, forms or integrations were changed. Publication status and verification are recorded in the handoff after checks.
+
+Published to Netlify: deploy 6ac72f2e5129a1126343b633. Source commit de40026 pushed to main. All nine live routes and new enquiry combinations passed. Local npm test, custom-control checks and six-width atelier checks passed; the newly added sections were personally inspected at desktop and mobile sizes.

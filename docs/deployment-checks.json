@@ -69,11 +69,5 @@
   "contactPrefill": true,
   "heroEnquiry": true,
   "nested404": true,
-  "errors": [],
-  "netlifyBadgeDisabled": true,
-  "liveGlobe": {
-    "ready": true,
-    "drawCalls": 16,
-    "fallback": false
-  }
+  "errors": []
 }
