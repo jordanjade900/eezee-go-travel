@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {transform} from 'esbuild';
 await import('./catalog.mjs');
 await import('./seo.mjs');
-export const pages = ['group-trips','services','travel-services','visa-assistance','passport-renewals','about','contact','privacy'];
+export const pages = ['group-trips','services','travel-services','visa-assistance','passport-renewals','about','contact','privacy','registration','plan-trip','request','manage'];
 const destination=resolve('dist');
 const project=JSON.parse(await readFile('package.json','utf8'));
 if(dirname(destination)!==process.cwd() || project.name!=='eezee-go-approved-hero') throw new Error('Build must run from the website project root.');
@@ -14,6 +14,7 @@ for(const file of ['index.html','404.html','styles.css','site.css','home.css','p
 for(const page of pages){await mkdir(`dist/${page}`,{recursive:true});await copyFile(`${page}/index.html`,`dist/${page}/index.html`);}
 await cp('assets','dist/assets',{recursive:true});
 for(const file of ['controls.css','controls.js'])await copyFile(file,`dist/${file}`);
+for(const file of ['operations-public.css','operations-public.js','operations-staff.css','operations-staff.js','operations-catalog.js'])await copyFile(file,`dist/${file}`);
 // Bundle in the same cascade order. Source styles remain separate for editing;
 // the delivered pages need one stylesheet request, with root-relative assets intact.
 const bundles=new Map();

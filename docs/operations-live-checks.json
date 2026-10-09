@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "base": "https://eezee-go-travel.netlify.app",
+  "checks": [
+    {
+      "liveAPI": true,
+      "unauthenticatedStaffDenied": true
+    },
+    {
+      "registrationSaved": true,
+      "durableStaffRetrieval": true,
+      "privateTracking": true,
+      "customerMessage": true,
+      "secureStaffCookie": true,
+      "privateDraft": true,
+      "publishedPlan": true,
+      "customerAcceptance": true,
+      "verificationRecordCancelled": true
+    },
+    {
+      "planningSaved": true,
+      "planningVerificationCancelled": true
+    },
+    {
+      "route": "registration/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "plan-trip/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "request/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "manage/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "registration/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "plan-trip/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "request/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "manage/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "registration/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "plan-trip/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "request/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "manage/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "registration/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "plan-trip/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "request/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "route": "manage/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    }
+  ],
+  "errors": []
+}

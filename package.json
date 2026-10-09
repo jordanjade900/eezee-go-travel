@@ -5,13 +5,16 @@
   "type": "module",
   "description": "Approved EE-Zee Go hero implementation and continuation handoff",
   "scripts": {
-    "dev": "node tools/serve.mjs",
+    "dev": "node --env-file-if-exists=.env.local tools/serve-operations.mjs",
     "content:generate": "node tools/catalog.mjs",
     "seo:generate": "node tools/seo.mjs",
     "test": "node tools/verify.mjs",
     "build": "node tools/build.mjs",
     "prepare:assets": "node tools/prepare-assets.mjs",
-    "audit:site": "node tools/audit.mjs"
+    "audit:site": "node tools/audit.mjs",
+    "dev:static": "node tools/serve.mjs",
+    "test:operations": "node tools/test-operations.mjs",
+    "test:operations:ui": "node tools/test-operations-ui.mjs"
   },
   "devDependencies": {
     "@fontsource/lato": "^5.3.0",
@@ -23,6 +26,7 @@
     "sharp": "^0.35.5"
   },
   "dependencies": {
+    "@netlify/blobs": "^11.1.4",
     "gsap": "^3.15.0"
   }
 }

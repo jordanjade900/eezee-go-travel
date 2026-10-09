@@ -1,0 +1,270 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:4191/",
+  "checkedAt": "2026-10-09T23:31:06.142Z",
+  "layouts": [
+    {
+      "route": "home",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/",
+      "noindex": false
+    },
+    {
+      "route": "about/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/about/",
+      "noindex": false
+    },
+    {
+      "route": "services/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/services/",
+      "noindex": false
+    },
+    {
+      "route": "travel-services/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/travel-services/",
+      "noindex": false
+    },
+    {
+      "route": "group-trips/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/group-trips/",
+      "noindex": false
+    },
+    {
+      "route": "visa-assistance/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/visa-assistance/",
+      "noindex": false
+    },
+    {
+      "route": "passport-renewals/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/passport-renewals/",
+      "noindex": false
+    },
+    {
+      "route": "contact/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/contact/",
+      "noindex": false
+    },
+    {
+      "route": "privacy/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/privacy/",
+      "noindex": false
+    },
+    {
+      "route": "registration/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/registration/",
+      "noindex": false
+    },
+    {
+      "route": "plan-trip/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/plan-trip/",
+      "noindex": false
+    },
+    {
+      "route": "request/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "noindex": true
+    },
+    {
+      "route": "manage/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "noindex": true
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/",
+      "noindex": false
+    },
+    {
+      "route": "about/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/about/",
+      "noindex": false
+    },
+    {
+      "route": "services/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/services/",
+      "noindex": false
+    },
+    {
+      "route": "travel-services/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/travel-services/",
+      "noindex": false
+    },
+    {
+      "route": "group-trips/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/group-trips/",
+      "noindex": false
+    },
+    {
+      "route": "visa-assistance/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/visa-assistance/",
+      "noindex": false
+    },
+    {
+      "route": "passport-renewals/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/passport-renewals/",
+      "noindex": false
+    },
+    {
+      "route": "contact/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/contact/",
+      "noindex": false
+    },
+    {
+      "route": "privacy/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/privacy/",
+      "noindex": false
+    },
+    {
+      "route": "registration/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/registration/",
+      "noindex": false
+    },
+    {
+      "route": "plan-trip/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "canonical": "https://eezee-go-travel.netlify.app/plan-trip/",
+      "noindex": false
+    },
+    {
+      "route": "request/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "noindex": true
+    },
+    {
+      "route": "manage/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "noindex": true
+    }
+  ],
+  "catalogue": [
+    {
+      "route": "home",
+      "width": 390,
+      "count": 3,
+      "currentDatesAndPickup": true,
+      "correctClosedStates": true
+    },
+    {
+      "route": "group-trips/",
+      "width": 390,
+      "count": 4,
+      "currentDatesAndPickup": true,
+      "correctClosedStates": true
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "count": 3,
+      "currentDatesAndPickup": true,
+      "correctClosedStates": true
+    },
+    {
+      "route": "group-trips/",
+      "width": 1440,
+      "count": 4,
+      "currentDatesAndPickup": true,
+      "correctClosedStates": true
+    }
+  ],
+  "errors": [],
+  "contactLivePrefillAndDraft": true,
+  "sitemapPrivateRoutesExcluded": true
+}

@@ -29,7 +29,7 @@ const server = http.createServer(async(req,res)=>{
     if(pathname.endsWith('/')) pathname += 'index.html';
     else if(!path.extname(pathname)){res.writeHead(301,{Location:pathname+'/'+url.search});return res.end();}
     const target = path.resolve(root,'.'+pathname);
-    if(!(target===root||target.startsWith(root.endsWith(path.sep)?root:root+path.sep))||/[/\\](node_modules|docs|references|tools|dist|\.git|\.claude)([/\\]|$)/.test(pathname)){res.writeHead(403);return res.end();}
+    if(!(target===root||target.startsWith(root.endsWith(path.sep)?root:root+path.sep))||/[/\\](node_modules|docs|references|tools|dist|backend|netlify|work|data|\.operations|\.git|\.claude)([/\\]|$)/.test(pathname)){res.writeHead(403);return res.end();}
     if(!mime[path.extname(target)]) throw new Error('type');
     const data=await readFile(target);
     await respond(req,res,200,mime[path.extname(target)],data);

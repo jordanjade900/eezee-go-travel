@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-JM"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#082d53"><meta name="description" content="View your saved EE-Zee Go Travel request, exchange messages with the team and review a proposed travel plan."><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>Your private travel request | EE-Zee Go Travel</title><link rel="icon" href="../assets/favicon.png" type="image/png"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../site.css"><link rel="stylesheet" href="../enhancements.css"><link rel="stylesheet" href="../atelier.css"><link rel="stylesheet" href="../operations-public.css"><script src="../site.js" defer></script><script src="../operations-public.js" defer></script></head><body class="operations-page atelier-site" data-operations-page="portal"><a class="skip-link" href="#content">Skip to content</a><header class="page-header">
+      <button class="page-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><img src="../assets/icons/list.svg" alt="" width="26" height="26"></button>
+      <nav id="site-nav" class="page-nav" aria-label="Main navigation">
+        <a href="../group-trips/">Group Trips</a>
+        <a href="../services/">Services</a>
+        <a href="../about/">About Us</a>
+        <a href="../contact/">Contact</a>
+      </nav>
+      <a class="page-brand" href="../" aria-label="EE-Zee Go Travel Limited home. Trusted for 30 Years"><svg viewBox="40 170 1180 940" role="img" aria-label="EE-Zee Go Travel Limited"><image href="../assets/logo-web.webp" width="1254" height="1254" /></svg><span>Trusted for 30 Years</span></a>
+      <a class="btn page-book" href="../contact/">Start enquiry <img src="../assets/icons/arrow-right.svg" alt="" width="26" height="26"></a>
+    </header><main id="content" class="ops-shell"><nav class="ops-path" aria-label="Breadcrumb"><a href="../">Home</a><span aria-hidden="true">/</span><span aria-current="page">Your private travel request</span></nav><section class="ops-opening ops-enter"><div><p class="ops-kicker">Your request workspace</p><h1>One journey.<br><em>All the next steps.</em></h1></div><p>A private place to follow your request, ask questions and review a proposed plan from the team.</p></section><section class="ops-form-panel ops-portal-entry" id="portal-entry" aria-labelledby="portal-entry-title"><h2 id="portal-entry-title">Open your saved request</h2><p>Use the private tracking link from your receipt, or paste the access code from that link below. A reference number alone does not unlock your request.</p><noscript><p class="ops-alert">JavaScript is needed to open a saved request. <a href="../contact/">Contact the team</a> if you need assistance.</p></noscript><form class="ops-form" method="post" action="/api/operations/request" id="portal-open" novalidate><div class="ops-field"><label for="access-code">Private access code</label><input id="access-code" type="password" required maxlength="300" autocomplete="off" spellcheck="false" aria-describedby="access-code-hint access-code-error"><p class="ops-hint" id="access-code-hint">The code is the part after # in your private tracking link. You may also paste the full link.</p><p class="ops-error" id="access-code-error"></p></div><div class="ops-actions"><button class="ops-action" type="submit">Open my request <img src="../assets/icons/arrow-right.svg" width="20" height="20" alt=""></button></div></form></section><div class="ops-state" id="portal-loading" hidden data-loading role="status">Opening your private request…</div><div class="ops-alert" id="portal-error" role="alert" hidden></div><section id="portal-workspace" hidden aria-labelledby="portal-request-title"><div class="ops-portal-heading"><div><h2 id="portal-request-title"></h2><span class="ops-status" id="portal-status"></span><p style="margin-top:12px" id="portal-updated"></p></div><div class="ops-actions" style="margin-top:0"><button class="ops-text-button" id="refresh-request" type="button">Refresh progress</button><button class="ops-text-button" id="close-request" type="button">Close private view</button></div></div><div class="ops-portal-layout"><aside class="ops-form-panel"><h3 class="ops-panel-heading">Your request</h3><p class="ops-progress-note" id="portal-progress-note"></p><dl class="ops-summary" id="portal-summary"></dl><div class="ops-note" style="margin-top:26px"><p>This workspace tracks your request. A status update or accepted plan does not confirm a booking or reserve a place.</p></div><div class="ops-actions"><button class="ops-text-button" id="portal-copy" type="button">Copy private tracking link</button></div><p class="ops-live" id="portal-copy-status" aria-live="polite"></p><input class="ops-private-link" id="portal-private-link" type="text" readonly hidden aria-label="Private tracking link" autocomplete="off"></aside><div><section class="ops-form-panel ops-plan" id="published-plan" hidden aria-labelledby="plan-heading"><span class="ops-kicker">Proposed travel plan</span><h3 id="plan-heading"></h3><p class="ops-hint" id="plan-version"></p><p id="plan-summary"></p><ol class="ops-plan-days" id="plan-days"></ol><p id="plan-note"></p><div class="ops-alert" id="plan-error" role="alert" hidden></div><p class="ops-accepted" id="plan-accepted" hidden></p><div class="ops-actions" id="plan-actions"><button type="button" class="ops-action" id="accept-plan">Approve this plan</button></div><p class="ops-hint" style="margin-top:14px">Approval tells the team that this plan works for you. It is not a booking confirmation.</p></section><section class="ops-form-panel" aria-labelledby="messages-heading"><h3 class="ops-panel-heading" id="messages-heading">Conversation with the team</h3><p class="ops-hint" id="messages-empty">There are no messages yet. You can send a question or extra details below.</p><ol class="ops-thread" id="portal-messages" aria-label="Request messages"></ol><form class="ops-form" method="post" action="/api/operations/request/reply" id="portal-reply" novalidate><div class="ops-field"><label for="reply-message">Your message</label><textarea id="reply-message" required maxlength="3000" placeholder="Ask a question, share a detail or request a change to your plan." aria-describedby="reply-message-hint reply-message-error"></textarea><p class="ops-hint" id="reply-message-hint">Messages are saved to this request for the team to review. Please keep ID and payment details out of the conversation.</p><p class="ops-error" id="reply-message-error"></p></div><div class="ops-alert" id="reply-error" role="alert" hidden></div><div class="ops-actions"><button class="ops-action" type="submit">Send message <img src="../assets/icons/arrow-right.svg" width="20" height="20" alt=""></button></div><p class="ops-live" id="reply-status" aria-live="polite"></p></form></section></div></div></section></main><footer class="site-footer">
+  <div class="footer-inner">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <svg viewBox="40 170 1180 940" role="img" aria-label="EE-Zee Go Travel Limited"><image href="../assets/logo-web.webp" width="1254" height="1254" /></svg>
+          <p>Travel planning, visa assistance, adult passport renewals and group trips for local and international travellers since 1996.</p>
+        </div>
+        <nav aria-label="Services">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="../travel-services/">Travel planning</a></li>
+            <li><a href="../visa-assistance/">Visa assistance</a></li>
+            <li><a href="../passport-renewals/">Passport renewals</a></li>
+            <li><a href="../group-trips/">Group trips</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Company">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="../about/">About us</a></li>
+            <li><a href="../services/">All services</a></li>
+            <li><a href="../contact/">Contact</a></li><li><a href="../registration/">Trip registration</a></li><li><a href="../plan-trip/">Plan a trip</a></li><li><a href="../request/">Track your request</a></li>
+            <li><a href="../privacy/">Privacy</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Visit or message us</h2>
+          <address>32 Mandeville Plaza<br>Mandeville, Jamaica</address>
+          <ul style="margin-top:12px">
+            <li>Mon–Fri, 8 AM–5 PM</li>
+            <li><a href="https://wa.me/18764503415" target="_blank" rel="noopener noreferrer">WhatsApp +1 876 450 3415</a></li>
+            <li><a href="mailto:eezeegoltd@gmail.com">eezeegoltd@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <a class="instagram-link" href="https://www.instagram.com/eezeegotravelja/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/instagram-logo.svg" alt="" width="22" height="22"><span>Follow our journeys <strong>@eezeegotravelja</strong></span><img src="../assets/icons/arrow-right.svg" alt="" width="20" height="20"></a><div class="footer-base">
+        <span>© 2026 EE-Zee Go Travel Limited. All rights reserved.</span>
+        <span>Enquiries only. Bookings are confirmed directly with our team.</span>
+      </div>
+    </div>
+  </div>
+</footer></body></html>

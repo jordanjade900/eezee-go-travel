@@ -1,5 +1,41 @@
 # Project handoff for Claude: EE-Zee Go Travel
 
+## Start here — 9 October 2026: custom operations systems implemented
+
+The user requested working registration, planning and management systems built from scratch, without a paid CRM. They are implemented and published on the existing Netlify site. This section supersedes older statements below about draft-only forms, no saved customer records, pending CRM selection, 4173/4190 preview servers, static-only deployment or unimplemented systems. The approved hero/logo are preserved. The client's written workflow clarification is still pending.
+
+### Current customer and staff flows
+
+- `/registration/`: durable interest request for a staff-managed future open departure; organiser/contact details, traveller count and consent; receipt/reference and private customer link.
+- `/plan-trip/`: durable destination/date/budget/preferences brief for local and international clients.
+- `/request/`: private progress, public messages, published itinerary and exact-version customer approval. The private token arrives in the URL fragment and is removed from the address bar after loading. Keep the original private link; the reference alone does not grant access.
+- `/manage/`: authenticated staff queue, search/type/status filters, assignment, next-action dates, internal notes, customer updates and a versioned itinerary editor. Owner controls departures, staff accounts and backups; the summary surfaces overdue/unassigned/due-today requests.
+
+New requests automatically go to the active staff member with the smallest open workload, with owner fallback, and receive an internal next-action date on the following calendar day in Jamaica. No email/WhatsApp is sent automatically. Requests and itinerary acceptance are not bookings or seat reservations. Whop is selected for later payments; do not implement checkout, reconciliation, deposit rules, receipts or payment reminders in this phase.
+
+Home, Group Trips and Registration fetch the live public departure catalogue. Owner departure edits are reflected without a rebuild. Contact trip-specific draft enquiries also fetch current names, dates, price text and pickup; they must not reintroduce stale embedded flyer context. General Contact and the approved hero keep the existing editable WhatsApp/email draft behaviour. These drafts are not saved operational requests. The original static Home/Group flyer cards remain crawlable fallback content; failed live loading is visibly disclosed. New departures receive no invented photographs or availability claims.
+
+### Architecture, access and local startup
+
+Use Node 24. Run `npm ci`, then `npm run dev`; open http://127.0.0.1:4191/. The site and API run together. Local owner access is in ignored `work/operations-access.md`; production owner access is in ignored `work/operations-live-access.md`. Do not put values from either file into public docs, GitHub or chat. The owner can change their password in the dashboard. If handing off to another machine, transfer secrets privately; neither credential file is in Git.
+
+Backend modules are in `backend/`; the function entry is `netlify/functions/operations.mjs` and API prefix is `/api/operations`. Public/staff frontend code is in `operations-public.*` / `operations-staff.*`, with `operations-catalog.js` for marketing departures. Locally, Node's SQLite writes encrypted snapshots to ignored `work/operations.sqlite`. Production uses a durable site-wide Netlify Blobs store with encryption, strong consistency and conditional write retries. No paid CRM subscription is required; existing hosting usage limits still apply.
+
+Production runtime secrets are configured in Netlify and independently recorded in ignored `work/operations-production.env`. Never overwrite them during a deploy. Losing `OPS_ENCRYPTION_KEY` loses access to records. Rotating `OPS_SESSION_SECRET` invalidates staff sessions and customer links. Existing owner passwords are controlled by stored accounts; changing bootstrap env hashes does not reset an existing owner.
+
+Staff sessions are HttpOnly, SameSite Strict and Secure on HTTPS. Owner/staff roles and mutation origins are enforced server-side; request revisions prevent silent stale saves. Notes and unshared drafts are never included in public responses. Password hashes, session records and customer token material are omitted from owner exports. The downloadable backup still contains personal customer data and belongs in private storage.
+
+### Verification, deployment and next work
+
+Fourteen backend tests passed, plus the actual browser registration/planning → staff draft/publication → customer approval workflow. Original website regression tests passed. Four new routes passed 320/390/768/1440 px on local and live builds; the final release check covers all 13 routes at mobile/desktop widths and current departure/Contact details. Two synthetic production records were cancelled after end-to-end tests. They are verification data, not bookings.
+
+Check commands: `npm run test:operations`; `npm run test:operations:ui` for local synthetic workflows only; `TEST_URL=http://127.0.0.1:4191 npm test`; `node tools/check-operations-release.mjs` for read-only route/catalogue checks. Use PowerShell `$env:TEST_URL=...` rather than POSIX assignment syntax here. Reports are in `docs/operations-*-checks.json`, screenshots in ignored `docs/screenshots/`.
+
+For production builds set `$env:PUBLIC_SITE_URL='https://eezee-go-travel.netlify.app/'`, run `npm run build`, and deploy **both** `dist` and `netlify/functions`. GitHub pushes alone do not deploy this manual Netlify project. Current deploy instructions/log: `docs/DEPLOYMENT.md`. No existing agency domain/DNS was changed.
+
+Read `docs/CUSTOM-SYSTEMS-OCT9.md`, `docs/STAFF-QUICKSTART.md` and `backend/README.md` before continuing. The client's written answer should settle reservation/capacity/waitlist/manifest rules, individual passenger data, quote/checklist needs, sending channel, retention policy and verified price currency/basis. Current capacity is informational and remaining seats are not calculated. Outbound delivery, appointments, supplier booking, identity uploads, MFA and public password recovery are not implemented. The initial 15 MB encrypted snapshot store is for low-volume operation; migrate to a transactional database before extensive history/high volume. Keep Whop work deferred until explicitly resumed.
+
+
 ## Current update — 8 October 2026: original client website content
 
 Published at https://eezee-go-travel.netlify.app/ on Netlify deploy 6ac72f2e5129a1126343b633; implementation commit de40026 pushed to GitHub main. Live checks passed on all nine routes, metadata, images, hero controls, Contact prefill, nested 404, and the three new service/destination combinations at 320/390/1440px.

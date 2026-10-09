@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:4191",
+  "checks": [
+    {
+      "registrationSaved": true,
+      "privateTracking": true,
+      "customerMessageSaved": true
+    },
+    {
+      "planningSaved": true,
+      "staffSignIn": true,
+      "statusUpdate": true,
+      "privateDraft": true,
+      "publishedPlan": true,
+      "customerApproval": true
+    },
+    {
+      "route": "registration/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "plan-trip/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "request/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "manage/",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "registration/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "plan-trip/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "request/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "manage/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "registration/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "plan-trip/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "request/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "manage/",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "registration/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "plan-trip/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "request/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "route": "manage/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    }
+  ],
+  "errors": []
+}

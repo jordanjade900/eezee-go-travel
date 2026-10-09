@@ -13,7 +13,9 @@ const info={
  'visa-assistance':{name:'Visa assistance',label:'Visa assistance',type:'FAQPage',service:'Visa assistance',image:'visa-japan.webp'},
  'passport-renewals':{name:'Adult Jamaican passport renewals',label:'Passport renewals',type:'WebPage',service:'Adult Jamaican passport renewal assistance',image:'passport-stilllife.webp'},
  'contact':{name:'Contact EE-Zee Go Travel',label:'Contact',type:'ContactPage',image:'contact-palm.webp'},
- 'privacy':{name:'Website privacy',label:'Privacy',type:'WebPage',image:'logo-social.webp'}
+ 'privacy':{name:'Website privacy',label:'Privacy',type:'WebPage',image:'logo-social.webp'},
+ 'registration':{name:'Group trip registration',label:'Register for a trip',type:'WebPage',image:'logo-social.webp'},
+ 'plan-trip':{name:'Plan your trip',label:'Plan a trip',type:'WebPage',image:'logo-social.webp'}
 };
 const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
 const esc=s=>s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
@@ -33,7 +35,7 @@ for(const [route,meta]of Object.entries(info)){
  if(route){
   const parts=[{name:'Home',path:''}];if(['travel-services','visa-assistance','passport-renewals'].includes(route))parts.push({name:'Services',path:'services/'});parts.push({name:meta.label,path:route+'/'});
   const crumb={'@type':'BreadcrumbList','@id':pageURL+'#breadcrumbs',itemListElement:parts.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.name,item:url(p.path)}))};graph.push(crumb);page.breadcrumb={'@id':crumb['@id']};
-  if(!html.includes('class="discovery-breadcrumb"')){const visible=`<nav class="discovery-breadcrumb" aria-label="Breadcrumb"><ol>${parts.map((p,i)=>`<li>${i===parts.length-1?`<span aria-current="page">${p.name}</span>`:`<a href="${p.path?'../'+p.path:'../'}">${p.name}</a>`}</li>`).join('')}</ol></nav>`;html=html.replace(/(<main[^>]*>)/,`$1\n${visible}`);}
+  if(!html.includes('class="discovery-breadcrumb"')&&!html.includes('class="ops-path"')){const visible=`<nav class="discovery-breadcrumb" aria-label="Breadcrumb"><ol>${parts.map((p,i)=>`<li>${i===parts.length-1?`<span aria-current="page">${p.name}</span>`:`<a href="${p.path?'../'+p.path:'../'}">${p.name}</a>`}</li>`).join('')}</ol></nav>`;html=html.replace(/(<main[^>]*>)/,`$1\n${visible}`);}
  }
  const metadata=`<!-- BEGIN SEARCH METADATA -->
   <link rel="canonical" href="${pageURL}">
@@ -56,5 +58,5 @@ for(const [route,meta]of Object.entries(info)){
  html=html.replace('</head>',metadata+'\n</head>');await writeFile(file,html);
 }
 await writeFile('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${Object.keys(info).map(route=>`  <url><loc>${url(route?route+'/':'')}</loc></url>`).join('\n')}\n</urlset>\n`);
-await writeFile('robots.txt',`User-agent: *\nAllow: /\nDisallow: /docs/\nDisallow: /references/\nDisallow: /tools/\nDisallow: /node_modules/\nDisallow: /dist/\nDisallow: /.claude/\n\nSitemap: ${url('sitemap.xml')}\n`);
+await writeFile('robots.txt',`User-agent: *\nAllow: /\nDisallow: /docs/\nDisallow: /references/\nDisallow: /tools/\nDisallow: /node_modules/\nDisallow: /dist/\nDisallow: /.claude/\nDisallow: /manage/\nDisallow: /request/\nDisallow: /api/\nDisallow: /backend/\nDisallow: /work/\n\nSitemap: ${url('sitemap.xml')}\n`);
 console.log('Metadata, business/service/FAQ/breadcrumb schema and crawl files generated for '+base);

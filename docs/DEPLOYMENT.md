@@ -1,5 +1,27 @@
 # GitHub and Netlify deployment
 
+## Current production — 9 October 2026: custom operations
+
+Production deploy: **6ac9797dbcb18e7865c6211b**. [Deploy log](https://app.netlify.com/projects/eezee-go-travel/deploys/6ac9797dbcb18e7865c6211b). The existing site now includes registration, planning, private customer tracking and the staff workspace, plus live departure data on Home/Group Trips and Contact. Source and operating details: [custom systems delivery](CUSTOM-SYSTEMS-OCT9.md), [staff quickstart](STAFF-QUICKSTART.md), [backend configuration](../backend/README.md).
+
+This section supersedes the static-only/no-backend deployment descriptions below. The build still publishes a multipage static frontend in `dist`; a Netlify Function serves `/api/operations/*`. Both must be deployed together. Durable encrypted records live in a site-wide Netlify Blobs store and survive deployments; they are not files in `dist`.
+
+Runtime production configuration is already set: `OPS_STORE=netlify`, the HTTPS `OPS_ORIGIN`, independent encryption/session secrets and bootstrap owner details. Private local copies are in ignored `work/operations-production.env` and `work/operations-live-access.md`. Never include them in the static build/GitHub or replace them with local keys. The stored owner account controls its password after initialization. Keep these secrets privately for continuity; no automatic password recovery or restore UI is installed.
+
+Future updates, from the repository root with authenticated CLI:
+
+```powershell
+$env:PUBLIC_SITE_URL='https://eezee-go-travel.netlify.app/'
+npm run build
+netlify deploy --site c2f75e7f-c3c4-4b75-8755-6e60b1f902ae --dir dist --functions netlify/functions --no-build --prod
+```
+
+The local Windows CLI is installed in ignored `work/netlify-cli`; its executable is `node work/netlify-cli/node_modules/netlify-cli/bin/run.js`. The previously documented EXDEV workaround affects that tooling copy only. Automatic Git deployment remains unconfigured, and no agency domain/DNS was changed. Preview URLs do not gain permission to mutate records: the API accepts the configured canonical origin.
+
+Verification includes 14 backend tests; actual customer submission → staff draft/publish → customer approval locally and on live production; all four new routes at 320/390/768/1440 px; original website regression checks; and the final 13-route release checks. Reports: `operations-ui-checks.json`, `operations-live-checks.json`, `operations-release-checks.json`. Two labelled synthetic production requests were cancelled after verification, not deleted or presented as bookings. Latest UI/catalogue deployment was checked without adding more customer records.
+
+Read-only release check: set `$env:TEST_URL='https://eezee-go-travel.netlify.app/'`, then `node tools/check-operations-release.mjs`. Optional staff sign-in/logout verification reads the private file only when `$env:OPS_ACCESS_FILE='work/operations-live-access.md'` is explicitly set. Credentials/tokens are excluded from reports. Do not run the synthetic `test:operations:ui` workflow against production.
+
 ## Latest production update — 4 October 2026
 
 Current deploy: 6ac3268b9ba8e6493c8b4e40. The user requested audience-neutral hero copy and removal of the decorative globe. These are published; the renderer/build step/unused geographic dependencies are removed. Services now has a full-width opening. Current details and verification: AUDIENCE-AND-GLOBE-UPDATE.md and globe-removal-checks.json. Older globe-render measurements below are historical.

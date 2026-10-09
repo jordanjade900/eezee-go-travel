@@ -11,3 +11,8 @@ docs/screenshots/
 docs/lighthouse*.json
 *.log
 .netlify/
+.env.local
+.operations/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

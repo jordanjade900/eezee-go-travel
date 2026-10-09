@@ -6,5 +6,10 @@ Disallow: /tools/
 Disallow: /node_modules/
 Disallow: /dist/
 Disallow: /.claude/
+Disallow: /manage/
+Disallow: /request/
+Disallow: /api/
+Disallow: /backend/
+Disallow: /work/
 
 Sitemap: https://eezee-go-travel.netlify.app/sitemap.xml
